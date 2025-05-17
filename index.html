@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="resources/images/logo.png" type="image/x-icon" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -57,13 +62,12 @@
             src="resources/images/logo.png"
             alt="Logo"
           />
-        </div>
-
-        <!-- slogan -->
-        <div class="hidden md:block">
-          <h2 class="text-[16px] text-green-600 font-mono">
-            A Trusted Name, A Reliable Partner
-          </h2>
+          <!-- slogan -->
+          <div class="hidden md:block">
+            <h2 class="text-[22px] text-green-600 font-mono">
+              A Trusted Name, A Reliable Partner
+            </h2>
+          </div>
         </div>
 
         <!-- Desktop Nav -->
@@ -122,14 +126,12 @@
     </header>
 
     <!-- hero section -->
-    <section
-      class="bg-gradient-to-l from-[#a8e6cf] via-[#56ab2f] to-[#006400] py-4 lg:py-24"
-    >
+    <section class="bg-gradient-to-l from-[#a8e6cf] via-[#56ab2f] to-[#006400]">
       <div
-        class="flex justify-between items-center w-[90%] lg:max-w-7xl mx-auto"
+        class="flex justify-between items-center w-[90%] lg:max-w-7xl mx-auto lg:h-[450px] py-4 md:py-0"
       >
         <div class="text-white">
-          <h4 class="text-xl mb-2 animate-bounceY">Welcome to DM IT Park</h4>
+          <h4 class="text-xl animate-bounceY mb-10">Welcome to DM IT Park</h4>
           <h2 class="text-2xl lg:text-5xl mb-2">Thriving on Challenges,</h2>
           <h2 class="text-2xl lg:text-5xl font-bold mb-6">
             Shaping the Future.
@@ -157,10 +159,6 @@
       class="hero sm:my-5 md:my-10 sm:w-[90%] mx-auto"
     >
       <div class="hero-content flex-col lg:flex-row sm:gap-8 md:gap-40">
-        <img
-          src="resources/images/about.jpeg"
-          class="max-w-sm rounded-lg shadow-2xl p-4 transition-transform duration-300 transform hover:scale-105 hover:rotate-10"
-        />
         <div
           data-aos="fade-right"
           data-aos-offset="300"
@@ -180,6 +178,10 @@
             in the era of the Fourth Industrial Revolution (4IR).
           </p>
         </div>
+        <img
+          src="resources/images/about.jpeg"
+          class="max-w-sm rounded-lg shadow-2xl p-4 transition-transform duration-300 transform hover:scale-105 hover:rotate-10"
+        />
       </div>
     </div>
 
@@ -188,16 +190,15 @@
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="3000"
-      class="bg-[url('resources/images/services.png')] bg-cover bg-center"
     >
       <!-- section title -->
-      <div class="text-center py-14">
+      <div class="py-14 ml-[5%]">
         <img
-          class="w-[40px] rounded-tr-[25%] mx-auto"
+          class="w-[60px] rounded-tr-[25%]"
           src="resources/images/logo.png"
           alt="logo"
         />
-        <h2 class="text-3xl font-bold text-[#42A543]">Our Services</h2>
+        <h2 class="text-3xl font-bold text-[#42A543] mt-2">What We Offer</h2>
       </div>
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[90%] mx-auto lg:pb-14"
@@ -303,7 +304,9 @@
             Digital Marketing
           </h4>
           <p>
-            Expand your reach with DM IT PARK’s expert digital marketing solutions. We help businesses connect, convert, and grow in the digital space
+            Expand your reach with DM IT PARK’s expert digital marketing
+            solutions. We help businesses connect, convert, and grow in the
+            digital space
           </p>
         </div>
       </div>
@@ -314,39 +317,12 @@
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="3000"
-      class="hero py-10"
+      class="hero py-10 w-[90%] mx-auto"
     >
-      <div
-        class="hero-content justify-start items-start lg:justify-center lg:items-center flex-col lg:flex-row lg:gap-80"
-      >
-        <div class="flex relative">
-          <div
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="2000"
-          >
-            <img
-              src="resources/images/choose1.jpg"
-              class="max-w-sm w-[200px] lg:w-[300px] h-[250px] lg:h-[400px] object-cover p-4 transition-transform duration-300 transform hover:scale-105 hover:rotate-10 rounded-tr-[25%]"
-            />
-          </div>
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-            class="absolute top-[80px] left-[180px] lg:top-[120px] lg:left-[300px]"
-          >
-            <img
-              src="resources/images/choose2.jpg"
-              class="max-w-sm w-[200px] lg:w-[300px] h-[250px] lg:h-[400px] object-cover p-4 transition-transform duration-300 transform hover:scale-105 hover:rotate-10 rounded-br-[25%]"
-            />
-          </div>
-        </div>
-
-        <div class="mt-24 lg:mt-0">
-          <h1 class="text-3xl lg:text-5xl font-bold text-[#42A543]">
-            Why Choose Us
+      <div class="hero-content justify-start items-start flex-col lg:flex-row">
+        <div class="mt-24 lg:mt-0 md:w-[50%]">
+          <h1 class="text-3xl lg:text-4xl font-bold text-[#42A543]">
+            Why We’re the Right Choice
           </h1>
           <p class="py-6 text-justify">
             At DM IT PARK, we are committed to delivering top-tier digital
@@ -363,32 +339,99 @@
           </p>
           <button class="btn btn-success text-white">Contact Us</button>
         </div>
+        <div class="flex relative">
+          <!-- first image -->
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+          >
+            <img
+              src="resources/images/choose1.jpg"
+              class="max-w-sm w-[200px] lg:w-[300px] h-[250px] lg:h-[400px] object-cover p-4 transition-transform duration-300 transform hover:scale-105 hover:rotate-10 rounded-tr-[25%]"
+            />
+          </div>
+          <!-- second image -->
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="3000"
+            class="absolute top-[80px] left-[180px] lg:top-[120px] lg:left-[300px]"
+          >
+            <img
+              src="resources/images/choose2.jpg"
+              class="max-w-sm w-[200px] lg:w-[300px] h-[250px] lg:h-[400px] object-cover p-4 transition-transform duration-300 transform hover:scale-105 hover:rotate-10 rounded-br-[25%]"
+            />
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- recent projects -->
-    <section class="md:mt-24 max-w-7xl mx-auto">
-      <!-- section title -->
-      <div class="text-center py-5 md:py-14">
-        <img
-          class="w-[40px] rounded-tr-[25%] mx-auto"
-          src="resources/images/logo.png"
-          alt="logo"
-        />
-        <h2 class="text-3xl font-bold text-[#42A543]">Recent Projects</h2>
+    <section class="bg-white py-16 px-4 lg:px-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+          Our Recent Project Gallery
+        </h2>
+        <p class="text-gray-500 max-w-xl mx-auto">
+          Check out some of our most recent works and what we've created for our
+          amazing clients.
+        </p>
       </div>
-      <div class="flex justify-center">
-        <div class="carousel carousel-vertical rounded-box h-96">
-          <div class="carousel-item h-full">
-            <img class="w-[270px]" src="resources/images/car1.png" />
-          </div>
-          <div class="carousel-item h-full">
-            <img class="w-[270px]" src="resources/images/mobile2.png" />
-          </div>
-          <div class="carousel-item h-full">
-            <img class="w-[270px]" src="resources/images/rzs.png" />
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Project Item -->
+        <div class="relative group overflow-hidden rounded-lg shadow-md">
+          <img
+            src="resources/images/car1.png"
+            alt="Project 1"
+            class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-70 transition duration-300"
+          >
+            <h3 class="text-white text-lg font-semibold">Car Doctor</h3>
+            <h3 class="text-white text-lg font-semibold"><a href="https://car-doctor-next-nine.vercel.app/" target="_blank">Live Link</a></h3>
           </div>
         </div>
+
+        <!-- Repeat for more projects -->
+        <div class="relative group overflow-hidden rounded-lg shadow-md">
+          <img
+            src="resources/images/mobile2.png"
+            alt="Project 2"
+            class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-70 transition duration-300"
+          >
+            <h3 class="text-white text-lg font-semibold">Mobile Maya</h3>
+            <h3 class="text-white text-lg font-semibold">
+              <a href="https://mobile-maya-redesign.vercel.app/" target="_blank">Live Link</a>
+            </h3>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-md">
+          <img
+            src="resources/images/rzs.png"
+            alt="Project 3"
+            class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-70 transition duration-300"
+          >
+            <h3 class="text-white text-lg font-semibold">
+              Rajshahi Zilla Samity
+            </h3>
+            <h3 class="text-white text-lg font-semibold">
+              <a href="https://www.rajzsdhk.com/" target="_blank">Live Link</a>
+            </h3>
+          </div>
+        </div>
+
+        <!-- Add more if needed -->
       </div>
     </section>
 
@@ -407,8 +450,8 @@
             srcset=""
           />
           <div class="text-white">
-            <h4>Subscribe your email for</h4>
-            <h4>Newsletter & Stay up to date</h4>
+            <h4>Join Our Mailing List</h4>
+            <h4>& Never Miss an Update!</h4>
           </div>
         </div>
         <div>
@@ -450,24 +493,10 @@
         class="w-[90%] lg:max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 text-white"
       >
         <!-- first -->
-        <div class="">
-          <div class="flex items-center mb-5">
-            <img
-              class="w-12 h-12 rounded-tr-[45%] mr-3"
-              src="resources/images/logo.png"
-              alt="logo"
-            />
-            <div>
-              <h3 class="text-2xl">We Belive</h3>
-              <h3 class="text-xs">WE HELP YOU INVENT THE FUTURE</h3>
-            </div>
-          </div>
-          <div>
-            <h4>
-              If you have the Commitment & Desire to develop your business we
-              have the experience and expertise to make it success!
-            </h4>
-          </div>
+        <div>
+          <h1 class="text-2xl font-bold mb-5">Contact Info</h1>
+          <h3>Phone- 01609967213</h3>
+          <h3>Email-absid24@gmail.com</h3>
         </div>
         <!-- second -->
         <div>
@@ -480,16 +509,35 @@
           </ul>
         </div>
         <!-- third -->
-        <div>
-          <h1 class="text-2xl font-bold mb-5">Contact Info</h1>
-          <h3>Phone- 01609967213</h3>
-          <h3>Email-absid24@gmail.com</h3>
+        <div class="">
+          <div class="flex items-center mb-5">
+            <img
+              class="w-12 h-12 rounded-tr-[45%] mr-3"
+              src="resources/images/logo.png"
+              alt="logo"
+            />
+            <div>
+              <h3 class="text-[16px]">A Trusted Name</h3>
+              <h3 class="text-[16px]">A Reliable Partner</h3>
+            </div>
+          </div>
+          <div>
+            <h4>
+              If you have the Commitment & Desire to develop your business we
+              have the experience and expertise to make it success!" to " Your
+              business goals, our expertise—let’s turn aspirations into
+              achievements
+            </h4>
+          </div>
         </div>
       </div>
     </footer>
 
     <!-- js files here -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
     <script>
       AOS.init();
 
@@ -498,6 +546,25 @@
         menu.classList.toggle("max-h-0");
         menu.classList.toggle("max-h-96"); // adjust height as needed
       }
+
+      //test
+
+      const swiper = new Swiper(".recent-projects-slider", {
+        loop: true,
+        spaceBetween: 30,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 3000,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
     </script>
   </body>
 </html>

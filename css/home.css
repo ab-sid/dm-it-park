@@ -9,3 +9,50 @@
   html, body {
   overflow-x: hidden;
 }
+
+/* test */
+.recent-projects {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.recent-projects .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.recent-projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.recent-projects .highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.recent-projects-slider {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.view-all {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
